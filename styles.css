@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+.logo {
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-top: 18px;
+    background-color: #f4f4f4;
+    width: 375px;
+    height: 670px;
+    border-radius: 20px;
+
+}
+
+#flecha {
+    width: 35px;
+    height: 50px;
+}
+
+.caixa {
+    width: 327px;
+
+    height: 72px;
+    color: #777777;
+    position: relative;
+    margin-bottom: 27px;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+    font-size: 14px;
+
+}
+
+.caixa:hover {
+    outline: none;
+}
+
+.selecionar {
+    width: 327px;
+    appearance: none;
+    border-radius: 4px;
+    height: 50px;
+    color: #555555;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+    border: 1px solid #bbbbbb;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+
+
+.selecionar:hover {
+    outline: none;
+}
+
+body {
+    background-color: #8a51fc;
+}
+
+button {
+    background-color: #772fd3;
+    filter: drop-shadow(5px 5px 5px rgba(201, 199, 199, 0.2));
+    color: #ffffff;
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 18px;
+    border: none;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.caixa-converted {
+    width: 327px;
+    height: 280px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.box-convert {
+    width: 130px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    margin: auto auto;
+}
+
+.img-logo {
+    width: 44px;
+
+    position: relative;
+    top: 5px;
+    align-items: center;
+
+}
+
+.moeda{
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.currency-value-to-convert, .currency-value{
+    color: #555;
+    font-weight: 700;
+    font-size: 20px;
+}
