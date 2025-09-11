@@ -51,6 +51,10 @@ main {
     outline: none;
 }
 
+.input-currency::placeholder {
+    opacity: 0.3;
+}
+
 .selecionar {
     width: 327px;
     appearance: none;
@@ -64,8 +68,6 @@ main {
     padding-left: 15px;
     line-height: 18px;
 }
-
-
 
 .selecionar:hover {
     outline: none;
@@ -134,4 +136,15 @@ button:active {
     color: #555;
     font-weight: 700;
     font-size: 20px;
+}
+
+.aviso{
+    color: red;
+    font-size: 12px;
+    display: ;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 10px;
 }

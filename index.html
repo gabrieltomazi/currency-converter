@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moeda</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>
@@ -15,7 +16,7 @@
                     <label for="">
                         Converter <b>de</b>
 
-                        <select class="selecionar currency-to-select">
+                        <select onchange="changeCurrency()" class="selecionar currency-to-select">
                             <option value="dolar">US$ Dólar americano</option>
                             <option value="real" selected>R$ Real Brasileiro</option>
                             <option value="euro">€ Euro</option>
@@ -27,7 +28,7 @@
                     <label for="">
                         Converter <b>para</b>
 
-                        <select class="selecionar currency-select">
+                        <select onchange="changeCurrency()" class="selecionar currency-select">
                             <option value="dolar">US$ Dólar americano</option>
                             <option value="real">R$ Real Brasileiro</option>
                             <option value="euro">€ Euro</option>
@@ -35,15 +36,17 @@
                     </label>
                 </div>
 
+                <p class="aviso" > As duas moedas não podem ter o mesmo nome </p>
+
                 <div class="caixa">
 
-                    <b>Valor</b>
+                    <b>Valor</b>   
 
                     <input type="number" placeholder="R$ 10.000,00" class="selecionar input-currency">
 
                 </div>
 
-                <button class="convert-button">Converter</button>
+                <button onclick="convertValues()" class="convert-button">Converter</button>
 
                 <div class="caixa-converted">
 
@@ -65,7 +68,9 @@
                 </div>
         </main>
     </div>
+    
 </body>
 <script src="scripts.js"></script>
+
 
 </html>
