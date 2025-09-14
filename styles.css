@@ -46,7 +46,7 @@ main {
 
 .caixa {
     width: 327px;
-
+    cursor: text;
     height: 72px;
     color: #777777;
     position: relative;
@@ -60,6 +60,7 @@ main {
 
 .caixa:hover {
     outline: none;
+    cursor: text;
 }
 
 .input-currency::placeholder {
